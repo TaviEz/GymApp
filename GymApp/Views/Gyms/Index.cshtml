@@ -1,0 +1,71 @@
+﻿@model GymApp.Models.TargetMuscleViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form asp-controller = "Gyms" asp-action = "Index" method="get">
+    <p>
+        <select asp-for="TargetMuscle" asp-items="Model.Muscles">
+            <option value="">All muscle groups</option>
+        </select>
+        
+        Exercise: <input type = "text" name = "SearchString"/>
+        <input type = "submit" value = "Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Gyms[0].Excercise)
+
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gyms[0].FocusOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gyms[0].Sets)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gyms[0].Reps)
+            </th>
+            <th>
+                 @Html.DisplayNameFor(model => model.Gyms[0].Weight)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Gyms) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Excercise)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FocusOn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sets)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Reps)
+            </td>
+            <td>
+                 @Html.DisplayFor(modelItem => item.Weight)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
