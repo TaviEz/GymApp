@@ -12,7 +12,8 @@ After launching the [VISUAL Studio 2022](https://visualstudio.microsoft.com/vs/)
 
 **Description**
 
-I chose to use this app to keep track of the workouts including the name of the exercise, repetitions, sets and also weight. The exercises, reps and sets columns are added by me manually in VISUAL STUDIO, but if you want to add more you can add them by selecting the create new button in the ``/gyms`` tab.
+This app is useful to keep track of the workouts including the name of the exercise, repetitions, sets and also weight. The exercises, reps and sets columns are added by me manually in VISUAL STUDIO, but if you want to add more you can add them by selecting the create new button in the ``/gyms`` tab.
+
 *Creating a new entry*
 ![gym2](https://user-images.githubusercontent.com/100527261/158465506-00860f58-09ba-4816-8e3a-9e469740fa37.png)
 
@@ -27,6 +28,6 @@ in the database
 
 **Issues to be fixed**
 
-At the moment I'm having some trouble adding a new column inside the script, not by just clicking the *Create New* button. In this case *weight* was added later than the first columns and as you can see some values are 0.
+At the moment I'm having some trouble adding a new column inside the script, not by just clicking the *Create New* button. In this case *weight* was added later than the first columns and as you can see some values are 0. Also I need to add a button to redirect you to the ```/gyms``` tab
 
 
