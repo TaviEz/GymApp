@@ -12,8 +12,18 @@ After launching the VISUAL Studio 2022 and installing all the packages needed fo
 
 **Description**
 
-I chose to use this app to keep track of the workouts including the name of the exercise, repetitions, sets and also weight. The exercises, reps and sets columns are added by me manually in VISUAL STUDIO, but if you want to add more you can add them by selecting the create new button in the ``/gyms`` tab. Besides the availabile commands  create/delete/edit/details you have on the top left some filter searches for the muscle groups and for exercises you're looking for.
+I chose to use this app to keep track of the workouts including the name of the exercise, repetitions, sets and also weight. The exercises, reps and sets columns are added by me manually in VISUAL STUDIO, but if you want to add more you can add them by selecting the create new button in the ``/gyms`` tab.
+*Creating a new entry*
+![gym2](https://user-images.githubusercontent.com/100527261/158465506-00860f58-09ba-4816-8e3a-9e469740fa37.png)
+
+Besides the availabile commands  create/delete/edit/details you have on the top left some filter searches for the muscle groups and for exercises you're looking for.
 in the database
+*Example of filter 1*
+![filter1](https://user-images.githubusercontent.com/100527261/158466006-bb49239c-55d1-407a-afc0-79f61af978d2.PNG)
+
+*Example of filter 2*
+![filter2](https://user-images.githubusercontent.com/100527261/158466961-c9b57e0e-698b-4b32-9315-5ad214ddde34.PNG)
+
 
 **Issues to be fixed**
 
