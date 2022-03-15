@@ -21,7 +21,7 @@ in the database
 *Example of filter 1*
 ![filter1](https://user-images.githubusercontent.com/100527261/158466006-bb49239c-55d1-407a-afc0-79f61af978d2.PNG)
 
-*Example of filter 2*
+*Example of filter 2(i wrote deltoids inside the exercise box)*
 ![filter2](https://user-images.githubusercontent.com/100527261/158466961-c9b57e0e-698b-4b32-9315-5ad214ddde34.PNG)
 
 
